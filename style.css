@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: rgb(207, 207, 207);
+  font-family: 'Lora',
+    serif;
+  color: rgb(87, 95, 125);
+  font-size: 17px;
+  line-height: normal;
+  font-weight: lighter;
+}
+
+h1, h2{
+  color: rgb(87, 95, 125);
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 32px;
+  line-height: normal;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a{
+  color: rgb(74, 77, 177);
+  text-decoration: none;
+  display: block;
+}
+
+ul{
+  list-style-type: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul li{
+  display: inline;
+  margin: 10px;
+}
+
+img{
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+i{
+  font-size: 32px;
+}
+
+a:hover{
+  color: rgb(33, 35, 35);
+}
+
+.container{
+  margin: 40px auto;
+  width: 50%;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.card{
+  background-color: rgb(252, 247, 247);
+  padding: 40px;
+  margin: 20px 0;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.button{
+  display: inline-block;
+  background-color: rgb(107, 114, 225);;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover{
+  color: white;
+  background-color: rgb(33, 35, 35);
+}
+
+.card-socials{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media (max-width: 960px) {
+  .container{
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container{
+    margin: 0;
+    width: 100%;
+  }
+
+  .card-bio {
+    margin-top: 0;
+  }
+
+  .card-socials {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  h1{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 409px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 362px) {
+  body{
+    font-size: 12px;
+  }
+
+  h1, h2{
+    font-size: 16px;
+  }
+
+  i{
+    font-size: 24px;
+  }
+
+  .card{
+    padding: 20px 0;
+  }
+}
